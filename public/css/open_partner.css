@@ -1,0 +1,189 @@
+.font-weight-bold{
+  color: #253A5C;
+}
+
+.partnerName{
+  width:60%
+}
+
+.name_label{
+font-style: normal;
+font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+letter-spacing: 0.08em;
+color: #253A5C;
+}
+ 
+
+.see_also{
+    width:100px;
+    border-bottom: 2px solid #465072; 
+  }
+  .see_more{
+    color: #253A5C;
+    text-decoration: none;
+  }
+  .page-item.active .page-link{
+    background-color: #465072;
+      border-color: #465072;;
+  }
+
+  button {
+    background: #465072
+    border: none;
+  }
+  
+  .partner_name{
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+ 
+  
+  @media (max-width:1200px) {
+    .partnerName>h4{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        
+        color: #000000;
+      }
+     
+      .second_container{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        color: #000000;
+      }
+      .imgOne{
+        width: 18%;
+        height: 192px;
+    }
+   
+
+    
+    .two_part{
+      flex-flow: column;
+    }
+    
+  }
+  @media (max-width:993px) {
+      .imgOne{
+        width: 38%;
+        align-self: center;
+      }
+      .imageTwo {
+        width: 26%;
+        height: 190px;
+        align-self: center;
+    }
+      
+    
+  }
+   @media (max-width:767px) {
+    
+    .partnerName {
+      width: 100%;
+      
+      }
+      .name_label{
+        text-align:center
+      }
+
+  }
+  
+.partners{
+  height:250px;
+  
+}
+.partner_img{
+  width:220px;
+  height:244px;
+  position:relative;
+
+}
+.partner_img>img{
+ 
+  width:208px;
+  height:244px;
+}
+.partner_text{
+  
+  width: 330px;
+  height:244px;
+  overflow:hidden;
+  color: #253A5C;
+  position:relative;
+}
+.partner_text>h5{
+  height:90px;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height:1.5
+ 
+}
+.partner_text>div{
+  height:100px;
+  display: block;
+  display: -webkit-box;  
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+  
+}
+button {
+  background-color: #465072;
+  border: none;
+}
+.partner_text>button{
+  position:absolute;
+  bottom:0;
+}
+@media(max-width:1200px){
+  .partner_text{
+      width:240px
+  }
+}
+@media(max-width:768px){
+  
+
+  .partners{
+      height:auto;
+  } 
+  .partner_text{
+      width:100%
+  }
+  
+  .partner_text>h5{
+      text-align:center;
+  } 
+
+}
+
+@media(max-width:495px){
+  .partner_text{
+    width:100%
+  }
+  
+
+}
+@media(max-width:425px){
+  
+  .partner_text{
+      width:100%;
+  }
+ 
+}
+  
+  

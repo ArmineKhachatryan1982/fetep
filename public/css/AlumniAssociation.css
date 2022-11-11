@@ -1,0 +1,34 @@
+
+.alumni_text{
+    text-align:justify;
+    /* line-height: 33px */
+}
+.image_col{
+    width: 370px;
+    height: 270px;
+    padding: 20px;
+   
+}
+.image_col>img{
+    width: 100%;
+    height: 100%;
+}
+.container>h1{
+    color: #253A5C;
+    font-weight: bold;
+}
+@media (max-width:768px){
+    .alumni_text>*{
+        padding:0 30px !important;
+    }
+    
+}
+@media (max-width:320px){
+    .image_col>img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+

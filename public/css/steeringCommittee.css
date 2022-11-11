@@ -1,0 +1,36 @@
+.steering_committee{
+    /*margin: 10%;*/
+}
+
+
+.steering_text{
+ 
+/* line-height: 33px */
+
+}
+
+.image_col{
+    width: 370px;
+    height: 270px;
+    padding: 20px;
+   
+    
+
+}
+.container>h1{
+    color: #253A5C;
+    font-weight: bold;
+}
+.image_col>img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width:426px){
+
+.steering_text {
+	font-size:16px !important;
+}
+
+}
+

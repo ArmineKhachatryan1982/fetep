@@ -1,0 +1,59 @@
+
+.page-item.active .page-link{
+    background-color: #465072;
+      border-color: #465072;;
+  }
+.aboutus{
+
+    position:relative;
+    min-height:500px;
+   }
+   
+
+.aboutus .aboutus_border{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #FFC600;
+    position: absolute;
+
+}
+.aboutus .aboutus_pic{
+    width: 300px;
+    height: 400px;
+    background:#a09292;
+}
+.aboutus_text{
+    width: 70%;
+    height: 400px;
+    text-align:justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.aboutus_text>h1{
+    color: #253A5C;
+    font-weight: bold;
+}
+
+
+@media(min-width:996px) and (max-width:1199px){
+    .aboutus_text{
+        width:65%
+    }
+}
+
+@media(max-width:995px){
+    .aboutus_text{
+        margin: 30px 0  0!important;
+        width:100%!important;
+    }
+    .aboutus_text>div{
+        padding-left:0!important;
+    }
+    .aboutus{
+        justify-content:center!important;
+    }
+    .aboutus_second_text{
+        width: 100%!important;
+    }
+}
+

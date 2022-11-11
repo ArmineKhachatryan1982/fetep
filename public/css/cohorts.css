@@ -1,0 +1,39 @@
+.page-item.active .page-link{
+    background-color: #465072;
+      border-color: #465072;;
+  }
+.cohort{
+	margin-top: 180px !important;
+}
+
+h3{
+    font-weight: bold;
+}
+
+h4{
+    color: #465072 !important;
+
+}
+.cohort_group_second
+{
+
+    background: #E5E5E5;
+
+}
+
+.card_img{
+  width:192px !important;
+    
+}
+
+@media (max-width:768px){
+        .cohort_group{
+            justify-content:center !important
+        }
+
+}
+@media (max-width:426px){
+        .cohort_group{
+            justify-content: center!important
+           
+}

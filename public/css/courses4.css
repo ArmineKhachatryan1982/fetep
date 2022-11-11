@@ -1,0 +1,152 @@
+
+.page-item.active .page-link{
+    background-color: #465072;
+      border-color: #465072;;
+  }
+
+@media (min-width:1440px){
+    .about_courseOneText{
+        width:60%;
+    }
+    .gradient_area>*{
+        font-size:30px !important;
+        line-height: 45px !important;
+    }
+    
+}
+#course_first{
+   
+   
+    /* height:514px; */
+    position:relative;
+   
+   
+}
+.gradient_area{
+    position:absolute;
+    width:55%;
+    height:200px;
+    top:100px;
+    left:50%;
+    transform:translate(-50%,0);
+    
+    overflow:hidden;
+    background: linear-gradient(90deg, #253A5C 2.93%, #253A5C 56.85%, rgba(196, 196, 196, 0) 103.95%);
+   
+}
+.gradient_area>*{
+    font-size:16px;
+    line-height: 25px;
+    padding:20px;
+}
+.with_image{
+    /* padding: 50px 0 50px 0; */
+    background: url(../img/img_courses4/—Pngtree—beautiful\ cube\ pattern\ batik_3633077\ 1.png);
+    background-color: #253A5C;
+    color: white;
+}
+
+.text_image{
+    width:100%;
+    overflow:hidden;
+    background: linear-gradient(90deg, #253A5C 2.93%, #253A5C 56.85%, rgba(196, 196, 196, 0) 103.95%);
+    opacity: 0.8;
+    color: white; 
+    position:absolute;
+    bottom:0;
+}
+
+
+.img_768{
+    position:absolute;
+    top:0;
+}
+.img_425{
+    position:absolute;
+    top:0;
+}
+.container>h1{
+    color: #253A5C;
+    font-weight: bold;
+}
+
+
+@media (max-width:1024px){
+
+    .gradient_area{
+        width:80% !important;
+    }
+    .nkar_text{
+        justify-content: center !important;
+    }
+    
+    .about_courseOneText{
+        width:100%
+    }
+
+   
+}
+@media (min-width:1024px) and (max-width:1440px){
+    .about_courseOneText{
+        width:50%
+    }
+    .gradient_area>*{
+        font-size:30px !important;
+        line-height: 45px !important;
+       
+    }
+   
+}
+@media (min-width:768px) and (max-width:1024px){
+    .gradient_area>*{
+        font-size:25px !important;
+        line-height: 45px !important;
+       
+    }
+
+
+}
+
+@media (min-width:430px) and (max-width:768px){
+    .gradient_area>*{
+        font-size:20px !important;
+        line-height: 35px !important;
+        
+    }
+}
+@media (max-width:425px){
+    .about_courseOneText>h1{
+        font-size:25px
+    }
+}
+/* title image start */
+@media(min-width:769px){
+    .img_768,.img_425{
+        display:none
+    }
+}
+@media(max-width:768px){
+    .img_1000,.img_425{
+        display:none
+    }
+    p>img{
+        display:block !important;
+        float:none !important;
+         margin-left:unset !important;
+        margin-right: unset !important; 
+        margin:0 auto !important;
+    }
+
+}
+@media(max-width:425px){
+    .img_1000 .img_768{
+        display:none;
+    }
+    .img_425{
+        display:block;
+    }
+    p>img{
+        width:300px !important;
+    }
+
+}
